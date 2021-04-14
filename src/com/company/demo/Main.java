@@ -18,10 +18,14 @@ public class Main {
 
 
 
-        String s1 = "abcddefgikom";
+        /*String s1 = "abcddefgikom";
         String s2 = "abdcdeffgklm";
 
-        Question3.printNotMatchedPairs(s1,s2);
+        Question3.printNotMatchedPairs(s1,s2);*/
+
+
+        int[] arr = {2,3,6,2,2,1,6};
+        Question4.frequencyOfNumbersInArray(arr);
     }
 
 
