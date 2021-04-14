@@ -24,8 +24,10 @@ public class Main {
         Question3.printNotMatchedPairs(s1,s2);*/
 
 
-        int[] arr = {2,3,6,2,2,1,6};
-        Question4.frequencyOfNumbersInArray(arr);
+        /*int[] arr = {2,3,6,2,2,1,6};
+        Question4.frequencyOfNumbersInArray(arr);*/
+
+
     }
 
 
