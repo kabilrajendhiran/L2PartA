@@ -8,15 +8,13 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Question2 {
-    int[] firstArray = {4,5,9,13,15,17};
-    int[] secondArray = {4,8,9,11,16,17};
-    int[] unionArray = new int[firstArray.length+secondArray.length];
 
 
     //Given Question: Using Array
-    public void unionArray()
+    public void unionArray(int[] firstArray, int[] secondArray)
     {
         int count = 0;
+        int[] unionArray = new int[firstArray.length+secondArray.length];
         for (int i = 0; i < firstArray.length; i++) {
             if(firstArray[i]==secondArray[i])
             {
@@ -36,12 +34,12 @@ public class Question2 {
             }
         }
 
+
         System.out.println(Arrays.toString(unionArray));
     }
 
-
     // Another Method using tree set
-    public void unionArrayWithTreeSet()
+    public void unionArrayWithTreeSet(int[] firstArray, int[] secondArray)
     {
         Set<Integer> set = new TreeSet();
         for (int i = 0; i < firstArray.length; i++) {
