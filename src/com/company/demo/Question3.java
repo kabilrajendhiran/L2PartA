@@ -2,7 +2,6 @@ package com.company.demo;
 
 public class Question3 {
 
-
     public static void printNotMatchedPairs(String s1, String s2)
     {
         for (int i = 0; i < s1.length(); i++) {

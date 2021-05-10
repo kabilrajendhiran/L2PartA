@@ -15,23 +15,23 @@ public class Main {
              PROGRAM
 
              Output :
-             P M
-             R A
-             O R
-             G
-             O R
-             R A
-             P M
+             P     M
+              R   A
+               O R
+                G
+               O R
+              R   A
+             P     M
 
              Input : ODD
              Output :
              O D
-             D
+              D
              O D
 
         * */
 
-        Question1.printPattern("PROGRAM");
+        /*Question1.printPattern("PROGRAM");*/
 
 
         /*
@@ -58,7 +58,6 @@ public class Main {
 
         Question2 question2 = new Question2();
         question2.unionArray(firstArray,secondArray);
-        question2.unionArrayWithTreeSet(firstArray,secondArray);
 
 
 
@@ -77,12 +76,14 @@ public class Main {
         *     o,l
         * */
 
+/*
 
         String s1 = "abcddefgikom";
         String s2 = "abdcdeffgklm";
 
         Question3.printNotMatchedPairs(s1,s2);
 
+*/
 
 
         /*
@@ -101,10 +102,12 @@ public class Main {
              1 – 1
         * */
 
+/*
 
         int[] arr = {2,3,6,2,2,1,6};
         Question4.frequencyOfNumbersInArray(arr);
 
+*/
 
         /*
         * Question 5
@@ -118,13 +121,13 @@ public class Main {
         * */
 
         // As Per Question the given String is taken as array of characters
-        char[] s = {'h','e',' ','d','i','d',' ','a',' ','g','o','o','d',' ','d','e','e','d'};
+ /*       char[] s = {'h','e',' ','d','i','d',' ','a',' ','g','o','o','d',' ','d','e','e','d'};
 
         char[] t = "Nair speaks malayalam".toCharArray();
         Question5.removePalindrome(s);
         System.out.println();
         Question5.removePalindrome(t);
-
+*/
     }
 
 
