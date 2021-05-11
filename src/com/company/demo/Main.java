@@ -102,12 +102,11 @@ public class Main {
              1 – 1
         * */
 
-/*
 
-        int[] arr = {2,3,6,2,2,1,6};
-        Question4.frequencyOfNumbersInArray(arr);
+       /* int[] arr = {6,2,3,6,2,2,1,6,2,6};
+      //  Question4.frequencyOfNumbersInArray(arr);
+        Question4.frequencyOfNumbersInArray(arr);*/
 
-*/
 
         /*
         * Question 5
@@ -121,13 +120,12 @@ public class Main {
         * */
 
         // As Per Question the given String is taken as array of characters
- /*       char[] s = {'h','e',' ','d','i','d',' ','a',' ','g','o','o','d',' ','d','e','e','d'};
+        char[] s = {'h','e',' ','d','i','d',' ','a',' ','g','o','o','d',' ','d','e','e','d'};
 
         char[] t = "Nair speaks malayalam".toCharArray();
         Question5.removePalindrome(s);
         System.out.println();
         Question5.removePalindrome(t);
-*/
     }
 
 
